@@ -13,7 +13,7 @@
             <input type="text" name="cliente" id="cliente" required><br>
 
             <!-- Etiqueta y campo para el nombre del producto -->
-            <label for="producto">Producto:</label>
+            <label for="producto">Cuota Mensual:</label>
             <select name="producto" id="producto">
                 <option value=""></option>
                 <option value="Enero">Enero</option>
@@ -50,7 +50,7 @@
                 $datos = explode('|', $factura);
 
                 // Imprime los datos de cada factura en una lista
-                echo "<li>{$datos[0]} - {$datos[1]} - {$datos[3]}</li>";
+                echo "<li>{$datos[0]} - {$datos[1]} - {$datos[2]}</li>";
             }
             ?>
         </ul>
