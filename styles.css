@@ -9,6 +9,8 @@ form {
     border: 1px solid #ccc; /* Borde con un grosor de 1 píxel y color gris claro (#ccc) */
     padding: 20px; /* Espaciado interno de 20 píxeles */
     width: 300px; /* Ancho del formulario de 300 píxeles */
+    background-color: green;
+    border: 2px black solid;
 }
 
 /* Estilo para las etiquetas (label) */
