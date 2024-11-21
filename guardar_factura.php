@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $precio = $_POST['precio'];         // Precio del producto
 
     // Forma una línea de texto que contiene los datos separados por '|' y un salto de línea al final
-    $linea = "$cliente|$producto|$cantidad|$precio\n";
+    $linea = "$cliente|$producto|$precio\n";
 
     // Agrega la línea al archivo 'facturas.txt' sin sobrescribir el contenido existente
     file_put_contents('facturas.txt', $linea, FILE_APPEND);
